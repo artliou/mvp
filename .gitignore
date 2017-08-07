@@ -18,6 +18,9 @@ coverage
 # Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
 .grunt
 
+# Should ignore the config file
+/config.js
+
 # Compiled Dirs (http://nodejs.org/api/addons.html)
 build/
 dist/
@@ -33,3 +36,5 @@ bower_components/
 .floobit
 .floo
 .flooignore
+
+# Config file

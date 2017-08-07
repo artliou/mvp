@@ -1,0 +1,37 @@
+{
+  "name": "hrsf80-mvp",
+  "version": "1.0.0",
+  "description": "yolo",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test node_modules/.bin/mocha test",
+    "react-dev": "webpack -d --watch",
+    "server-dev": "nodemon server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/artliou/hrsf80-mvp.git"
+  },
+  "author": "Arthur Liou",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/artliou/hrsf80-mvp/issues"
+  },
+  "homepage": "https://github.com/artliou/hrsf80-mvp#readme",
+  "dependencies": {
+    "angular": "^1.6.5",
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "jquery": "^3.2.1",
+    "mongoose": "^4.11.5",
+    "nodemon": "^1.11.0",
+    "twilio": "^3.6.1",
+    "underscore": "^1.8.3",
+    "webpack": "^3.4.1"
+  },
+  "devDependencies": {
+    "chai": "^4.1.1",
+    "mocha": "^3.5.0",
+    "sinon": "^3.0.0"
+  }
+}
